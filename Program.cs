@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using TodoAPI.Data;
 var builder = WebApplication.CreateBuilder(args);
 
-// Register services
+// Register services here
 builder.Services.AddControllers(); // 👈 Add controller support
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
